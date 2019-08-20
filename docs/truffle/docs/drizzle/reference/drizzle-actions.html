@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WHT4PS2');</script>
+  <!-- End Google Tag Manager -->  
+  <meta charset="utf-8">
+  <meta name="description" content="The Truffle suite of tools make dapp development easier and more consistent.">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://www.trufflesuite.com/img/favicons/favicon.ico">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="Truffle Suite">
+  <link rel="icon" sizes="192x192" href="https://www.trufflesuite.com/img/favicons/chrome-touch-icon-192x192.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Truffle Suite">
+  <link rel="apple-touch-icon" href="https://www.trufflesuite.com/img/favicons/apple-touch-icon.png">
+
+  <!-- Tile icon for Win8/10 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="img/favicons/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#3372DF">
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:site_name" content="Truffle Suite" />
+  <meta property="og:description" content="The Truffle suite of tools make dapp development easier and more consistent." />
+  <meta property="og:title" content="Drizzle | Drizzle Actions | Documentation | Truffle Suite" />
+  <meta property="og:url" content="https://trufflesuite.com/docs/drizzle/reference/drizzle-actio" />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://truffleframework.com/img/favicons/truffle-share.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="Truffle Suite" />
+  <meta name="twitter:title" content="Drizzle | Drizzle Actions | Documentation | Truffle Suite" />
+  <meta name="twitter:description" content="The Truffle suite of tools make dapp development easier and more consistent." />
+  <meta name="twitter:creator" content="Truffle Suite" />
+  <meta name="twitter:domain" content="trufflesuite.com" />
+  <meta name="twitter:image:src" content="https://truffleframework.com/img/favicons/truffle-share.png" />
+  
+  <meta name="google-site-verification" content="BSgPkMHzw7IxJTpEElNfD8ZZYPzXgOQiTVPzAxAG8-o" />
+
+  <title>Drizzle | Drizzle Actions | Documentation | Truffle Suite</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Open+Sans|Oswald|Varela+Round|Roboto+Condensed|Roboto+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../css/index.css">
+</head>
+<body>
+  
+  <main role="main" class="container-fluid">
+    <!--<div class="row pt-4 pb-4">
+      <div class="col">
+        <form>
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="🔍 Search">
+            </div>
+            <div class="col">
+              <select id="inputState" class="form-control">
+                <option selected>4.1</option>
+                <option>4.0.6</option>
+                <option>4.0.5</option>
+              </select>
+            </div>
+            <div class="col">
+              <button type="submit" class="btn btn-truffle">SEARCH</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>-->
+
+    
+
+    <div class="row row-docs-main">
+      <aside class="col-lg-3 docs-sidebar" id="docsSidebar">
+        
+      
+        <a class="toggle-drizzle suite-link" href="contract-interaction.html#drizzleDocs" data-toggle="collapse">
+          <img class="suite-logo" src="../../../img/drizzle-logomark.svg" alt="Drizzle Logo" /><h2 class="text-drizzle">dri<span class="drizzle-z-skew-1">z</span><span class="drizzle-z-skew-2">z</span>le</h2>
+        </a>
+        
+        <div class="collapse drizzle show" id="drizzleDocs" data-parent="#docsSidebar">
+          <ul>
+            <a href="../overview.html"><li>Overview</li></a>
+            <a href="../quickstart.html"><li>Quickstart</li></a>
+          </ul>
+            <h3>Getting Started</h3>
+            <ul>
+                <a href="../getting-started/using-drizzles-redux-store.html"><li>Using Drizzle&#x27;s Redux Store</li></a>
+                <a href="../getting-started/contract-interaction.html"><li>Contract Interaction</li></a>
+            </ul>
+            <h3>React</h3>
+            <ul>
+                <a href="../react/react-integration.html"><li>React Integration</li></a>
+                <a href="../react/react-components.html"><li>React Components</li></a>
+            </ul>
+            <h3>Reference</h3>
+            <ul>
+                <a href="drizzle-options.html"><li>Drizzle Options</li></a>
+                <a href="drizzle-state.html"><li>Drizzle State</li></a>
+                <a href="drizzle-actions.html"><li>Drizzle Actions</li></a>
+                <a href="how-data-stays-fresh.html"><li>How Data Stays Fresh</li></a>
+            </ul>
+        </div>
+      </aside>
+      <div class="col-lg-9 bd-light-cream docs-content">
+        
+    <h1 class="link-markdown">
+      <a href="drizzle-actions.html#drizzle-actions" name="drizzle-actions"><i class="fas fa-link"></i></a>
+      Drizzle Actions
+    </h1>
+  <p>Drizzle emits many different actions that we can hook into with Middlewares. For more information about writing middlewares for Drizzle, <a href="https://www.trufflesuite.com/tutorials/drizzle-and-contract-events">see the Drizzle and Contract Events tutorial</a>.</p>
+<p>The main categories of actions pertain to:</p>
+<ul>
+<li><a href="drizzle-actions.html#accounts">Accounts</a></li>
+<li><a href="drizzle-actions.html#blocks">Blocks</a></li>
+<li><a href="drizzle-actions.html#drizzle">Drizzle</a></li>
+<li><a href="drizzle-actions.html#contract-events">Contract Events</a></li>
+<li><a href="drizzle-actions.html#transactions">Transactions</a></li>
+</ul>
+
+    <h2 class="link-markdown">
+      <a href="drizzle-actions.html#accounts" name="accounts"><i class="fas fa-link"></i></a>
+      Accounts
+    </h2>
+  
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-accounts_fetching-code-" name="-code-accounts_fetching-code-"><i class="fas fa-link"></i></a>
+      <code>ACCOUNTS_FETCHING</code>
+    </h3>
+  <p>Fired when Drizzle begins fetching accounts.</p>
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-accounts_fetched-code-" name="-code-accounts_fetched-code-"><i class="fas fa-link"></i></a>
+      <code>ACCOUNTS_FETCHED</code>
+    </h3>
+  <p>Fired once Drizzle has successfully fetched accounts.</p>
+<pre><code>{
+  accounts
+}
+</code></pre><p><strong><code>accounts</code> (array)</strong>: An array of account addresses.</p>
+<!--
+### `ACCOUNTS_FAILED`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+```
+{
+  error
+}
+```
+`error` (object): An error object.
+-->
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-account_balance_fetched-code-" name="-code-account_balance_fetched-code-"><i class="fas fa-link"></i></a>
+      <code>ACCOUNT_BALANCE_FETCHED</code>
+    </h3>
+  <p>Fired when an account balance has been successfully fetched. </p>
+<pre><code>{
+  address: balance
+}
+</code></pre><p><strong><code>balance</code> (int)</strong>: The account balance, indexed by account <code>address</code> (string) in gwei.</p>
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-accounts_polling-code-" name="-code-accounts_polling-code-"><i class="fas fa-link"></i></a>
+      <code>ACCOUNTS_POLLING</code>
+    </h3>
+  <p>Fired when Drizzle begins polling for account changes.</p>
+
+    <h2 class="link-markdown">
+      <a href="drizzle-actions.html#blocks" name="blocks"><i class="fas fa-link"></i></a>
+      Blocks
+    </h2>
+  <!--### `BLOCK_RECEIVED`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `BLOCKS_FAILED`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `BLOCK_FOUND`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.-->
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-block_processing-code-" name="-code-block_processing-code-"><i class="fas fa-link"></i></a>
+      <code>BLOCK_PROCESSING</code>
+    </h3>
+  <p>A sentence about the event, such as: conditions under which it fires, what it contains, etc.</p>
+<pre><code>{
+  block
+}
+</code></pre><p><strong><code>block</code> (object)</strong>: The block object returned by web3. See the <a href="https://web3js.readthedocs.io/en/1.0/web3-eth.html?highlight=getBlock#id45">web3 getBlock documentation</a> for the block object&#39;s structure.</p>
+<!--### `BLOCKS_LISTENING`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `BLOCKS_POLLING`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.-->
+
+    <h2 class="link-markdown">
+      <a href="drizzle-actions.html#drizzle" name="drizzle"><i class="fas fa-link"></i></a>
+      Drizzle
+    </h2>
+  <!--### `DRIZZLE_INITIALIZING`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.-->
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-drizzle_initialized-code-" name="-code-drizzle_initialized-code-"><i class="fas fa-link"></i></a>
+      <code>DRIZZLE_INITIALIZED</code>
+    </h3>
+  <p>Fire when drizzle has finished initializing. Once this has fired, web3 and accounts have been intialized.</p>
+<!--### `DRIZZLE_FAILED`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+## Contracts
+
+### `GETTING_CONTRACT_VAR`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `GOT_CONTRACT_VAR`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `ERROR_CONTRACT_VAR`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `CONTRACT_SYNC_IND`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `CONTRACT_SYNCED`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `CONTRACT_SYNCING`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `DELETE_CONTRACT`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `CALL_CONTRACT_FN`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `SEND_CONTRACT_TX`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `ADD_CONTRACT`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `CONTRACT_INITIALIZING`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `CONTRACT_INITIALIZED`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.-->
+
+    <h2 class="link-markdown">
+      <a href="drizzle-actions.html#contract-events" name="contract-events"><i class="fas fa-link"></i></a>
+      Contract Events
+    </h2>
+  <!--### `LISTEN_FOR_EVENT`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.-->
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-event_fired-code-" name="-code-event_fired-code-"><i class="fas fa-link"></i></a>
+      <code>EVENT_FIRED</code>
+    </h3>
+  <p>Fired when a contract event has been fired.</p>
+<pre><code>{
+  name,
+  event
+}
+</code></pre><p><strong><code>name</code> (string)</strong>: The name of the event.</p>
+<p><strong><code>event</code> (object)</strong>: The event object returned by web3. See the <a href="https://web3js.readthedocs.io/en/1.0/web3-eth-contract.html#contract-events-return">web3 Contract Event documentation</a> for the event object&#39;s structure.</p>
+<!--### `EVENT_CHANGED`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.
+
+### `EVENT_ERROR`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.-->
+
+    <h2 class="link-markdown">
+      <a href="drizzle-actions.html#transactions" name="transactions"><i class="fas fa-link"></i></a>
+      Transactions
+    </h2>
+  <!--### `PUSH_TO_TXSTACK`
+A sentence about the event, such as: conditions under which it fires, what it contains, etc.-->
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-tx_broadcasted-code-" name="-code-tx_broadcasted-code-"><i class="fas fa-link"></i></a>
+      <code>TX_BROADCASTED</code>
+    </h3>
+  <p>A sentence about the event, such as: conditions under which it fires, what it contains, etc.</p>
+<pre><code>{
+  txHash,
+  stackId
+}
+</code></pre><p><strong><code>txHash</code> (string)</strong>: The transaction hash.</p>
+<p><strong><code>stackId</code> (int)</strong>: An integer representing an index in the <code>transactionStack</code>.</p>
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-tx_confirmaiton-code-" name="-code-tx_confirmaiton-code-"><i class="fas fa-link"></i></a>
+      <code>TX_CONFIRMAITON</code>
+    </h3>
+  <p>A sentence about the event, such as: conditions under which it fires, what it contains, etc.</p>
+<pre><code>{
+  confirmationReceipt,
+  txHash
+}
+</code></pre><p><strong><code>confirmationReceipt</code> (object)</strong>: The confirmation receipt returned by web3. See the <a href="https://web3js.readthedocs.io/en/1.0/web3-eth.html?highlight=confirmation#eth-gettransactionreceipt-return">web3 getTransactionReceipt documentation</a> for the receipt object&#39;s structure.</p>
+<p><strong><code>txHash</code> (string)</strong>: The transaction hash.</p>
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-tx_successful-code-" name="-code-tx_successful-code-"><i class="fas fa-link"></i></a>
+      <code>TX_SUCCESSFUL</code>
+    </h3>
+  <p>A sentence about the event, such as: conditions under which it fires, what it contains, etc.</p>
+<pre><code>{
+  receipt,
+  txHash
+}
+</code></pre><p><strong><code>receipt</code> (object)</strong>: The transaction receipt returned by web3. See the <a href="https://web3js.readthedocs.io/en/1.0/web3-eth.html?highlight=confirmation#eth-gettransactionreceipt-return">web3 getTransactionReceipt documentation</a> for the receipt object&#39;s structure.</p>
+<p><strong><code>txHash</code> (string)</strong>: The transaction hash.</p>
+
+    <h3 class="link-markdown">
+      <a href="drizzle-actions.html#-code-tx_error-code-" name="-code-tx_error-code-"><i class="fas fa-link"></i></a>
+      <code>TX_ERROR</code>
+    </h3>
+  <p>A sentence about the event, such as: conditions under which it fires, what it contains, etc.</p>
+<pre><code>{
+  error,
+  stackTempKey
+}
+</code></pre><p><strong><code>error</code> (object)</strong>: An error object, containig a <code>message</code>, if provided. Empty object if the transaction failed as a result of user rejection via their wallet.</p>
+<p><strong><code>stackTempKey</code> (string)</strong>: If the transaction experienced an erorr before broadcasting (such as a rejection), this key will be filled on the <code>transactionStack</code> rather than a transaction hash to prevent stack index collisions.</p>
+
+
+        <div class="contribute-link">
+          See a way to make this page better? <a href="https://github.com/trufflesuite/trufflesuite.com/edit/master/src/docs/drizzle/reference">Edit here &raquo;</a>
+        </div>      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../../js/vendor/jquery-3.2.1.slim.min.js"><\/script>')</script>
+  <script src="../../../js/bootstrap.min.js"></script>
+  <script src="../../../js/vendor/prism.js"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="../../../js/docs.js"></script>
+  <script src="https://unpkg.com/lunr/lunr.js"></script>
+  <script src="../../../js/docs-search.js"></script>
+</body>
+</html>

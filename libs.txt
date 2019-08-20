@@ -1,0 +1,33 @@
+Golang (sudo apt install golang-go)
+npm (sudo apt install npm)
+nodejs (sudo pat install nodejs)
+net-tools (sudo apt install net-tools)
+golang tools (sudo apt install golang-golang-x-tools)
+
+Golang libs:
+	https://github.com/ethereum/go-ethereum
+	https://github.com/mattn/go-sqlite3
+
+Ganache(https://www.trufflesuite.com/ganache)
+
+Goland (sudo apt install goland --classic)
+Webstorm (sudo apt install webstorm --classic)
+remix(npm install remix-ide -g)
+
+truffle(sudo npm install truffle -g)
+drizzle-box
+petshop-box
+Sublime Text 3 (packets: Package Control, Emmet, Go Build, Ethereum) (https://www.sublimetext.com/3)
+
+
+
+
+Docs:
+https://solidity.readthedocs.io/en/latest/
+https://web3js.readthedocs.io/en/1.0/
+https://developer.mozilla.org/ru/docs/Web/JavaScript
+https://goethereumbook.org/en/
+https://ru.reactjs.org/
+https://golang.org/doc/
+http://echain.ru/obuchenie/dokumentaciya-solidity-na-russkom-yazyke
+https://www.trufflesuite.com/docs
